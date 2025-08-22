@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transporte Autónomo – Autos sin Conductor</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8fbfd;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #007acc, #00b894);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header .logo {
+      width: 90px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      margin: 10px 0 0 0;
+      font-size: 2.5rem;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      color: #007acc;
+      margin-top: 50px;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      border-left: 6px solid #00b894;
+      padding-left: 12px;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+    ul, ol {
+      background: #e6f7ff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+    th, td {
+      border: 1px solid #d9f0ff;
+      padding: 14px;
+      text-align: center;
+    }
+    th {
+      background: #007acc;
+      color: white;
+      font-size: 1rem;
+    }
+    td {
+      background: #f4fbff;
+    }
+    /* ===== Galería ===== */
+    .galeria {
+      margin: 50px 0;
+      text-align: center;
+    }
+    .imagenes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-top: 25px;
+    }
+    .imagenes img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 15px;
+      border: 3px solid #00b894;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .imagenes img:hover {
+      transform: scale(1.06);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+    /* ===== Botones ===== */
+    .btn-mas {
+      display: inline-block;
+      margin: 15px;
+      padding: 12px 28px;
+      background: #00b894;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .btn-mas:hover {
+      background: #009170;
+    }
+    footer {
+      background: #007acc;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img 
+      src="https://thumbs.dreamstime.com/b/icono-de-coche-sin-conductor-veh%C3%ADculo-inteligente-y-autoconducido-l%C3%ADnea-transporte-aut%C3%B3nomo-vector-s%C3%ADmbolo-artificial-del-la-255017458.jpg"
+      alt="Logo Transporte Autónomo" 
+      class="logo"
+    />
+    <h1>Transporte Autónomo – Autos sin Conductor</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        El <strong>transporte autónomo</strong> es una innovación tecnológica que busca transformar la manera en que nos desplazamos. Mediante sensores, radares, inteligencia artificial y conectividad, los vehículos autónomos pueden detectar su entorno, tomar decisiones y desplazarse con mínima o nula intervención humana.
+      </p>
+    </section>
+
+    <section>
+      <h2>Niveles de Autonomía</h2>
+      <table>
+        <tr>
+          <th>Nivel</th><th>Descripción</th><th>Ejemplo</th>
+        </tr>
+        <tr>
+          <td>0</td><td>Sin automatización: el conductor controla todo.</td><td>Autos tradicionales</td>
+        </tr>
+        <tr>
+          <td>2</td><td>Automatización parcial: asistencia en dirección y aceleración.</td><td>Tesla Autopilot</td>
+        </tr>
+        <tr>
+          <td>4</td><td>Alta automatización: no requiere conductor en ciertas condiciones.</td><td>Waymo One</td>
+        </tr>
+        <tr>
+          <td>5</td><td>Automatización completa: conducción autónoma total.</td><td>Prototipos futuros</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Ventajas y Desafíos</h2>
+      <table>
+        <tr>
+          <th>Ventajas</th><th>Desafíos</th>
+        </tr>
+        <tr>
+          <td>Menor accidentalidad</td><td>Regulación y legislación</td>
+        </tr>
+        <tr>
+          <td>Acceso para personas con discapacidad</td><td>Seguridad cibernética</td>
+        </tr>
+        <tr>
+          <td>Optimización del tráfico</td><td>Aceptación social</td>
+        </tr>
+        <tr>
+          <td>Reducción de contaminación</td><td>Costo de implementación</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Principales Empresas en el Sector</h2>
+      <ul>
+        <li><strong>Waymo</strong> – Líder en pruebas de robotaxis en EE. UU.</li>
+        <li><strong>Tesla</strong> – Pionero en conducción asistida con Autopilot.</li>
+        <li><strong>Uber ATG</strong> – Desarrollo de transporte autónomo compartido.</li>
+        <li><strong>Baidu Apollo</strong> – Proyecto chino de movilidad autónoma.</li>
+        <li><strong>Mercedes-Benz</strong> – Innovación en vehículos de lujo autónomos.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Aplicaciones del Transporte Autónomo</h2>
+      <ol>
+        <li>Transporte urbano con robotaxis.</li>
+        <li>Logística y reparto de mercancías.</li>
+        <li>Transporte interurbano en buses autónomos.</li>
+        <li>Apoyo a la movilidad de adultos mayores.</li>
+        <li>Emergencias y rescates en zonas de riesgo.</li>
+      </ol>
+    </section>
+
+    <section class="galeria">
+      <h2>Galería de Autos Autónomos</h2>
+      <div class="imagenes">
+        <img src="https://media.istockphoto.com/id/1166691460/es/vector/iconos-de-coches-aut%C3%B3nomos.jpg?s=612x612&w=0&k=20&c=vI-frYpGfwFYYWJQNsvhw8Kp0l2HNJ_tDSs4w-WCiYw=" alt="Iconos de Coches Autónomos" />
+        <img src="https://media.istockphoto.com/id/642950046/es/foto/coche-coche-piloto-autom%C3%A1tico.jpg?s=612x612&w=0&k=20&c=KOG7rVcP5v2AgLZO3nZWXzCo9E7qqa0ns6Dry-1JUxw=" alt="Coche Autónomo en autopista" />
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/cnne-156917-141222130809-google-driverless-car-prototype-story-top.jpg?c=16x9&q=h_833,w_1480,c_fill" alt="Prototipo Google Car Autónomo" />
+        <img src="https://media.istockphoto.com/id/971246808/es/foto/cabina-de-futuristas-coches-aut%C3%B3nomas.jpg?s=612x612&w=0&k=20&c=wF8CVFhzJN9RGMAI1zORJDzWSa7y24_P0_FAHqEt2Ac=" alt="Cabina de Coches Autónomos Futuristas" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Más información</h2>
+      <a href="https://waymo.com/" target="_blank" class="btn-mas">Waymo</a>
+      <a href="https://www.tesla.com/autopilot" target="_blank" class="btn-mas">Tesla Autopilot</a>
+      <a href="https://apollo.auto/" target="_blank" class="btn-mas">Baidu Apollo</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 – Proyecto Académico | Transporte Autónomo
+  </footer>
+</body>
+</html>
